@@ -1,0 +1,47 @@
+.feature-list {
+    display: flex;
+    align-self: center;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+   
+}
+
+@media screen and (min-width: 767px) {
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;      
+    }
+   
+    .feature {
+        width: 33%;
+        height: 50%;
+        margin: 15px;
+    }
+
+    .feature-list {
+        display: flex;
+        align-self: center;
+        align-items: center;
+    }
+}
+
+.feature {
+    width: 33%;
+    height: 50%;
+    margin: 15px;
+}
+
+.vector {
+    
+    height: 120px;
+    background-color: #F5F4FA;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

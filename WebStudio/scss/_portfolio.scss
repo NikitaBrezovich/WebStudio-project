@@ -1,0 +1,31 @@
+.btn_set {
+    flex-direction: row;
+}
+
+.pf_categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+//.categ {}
+   
+
+
+.buton1 {
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+
+.pf {
+    display: flex;
+    align-self: center;
+    margin-bottom: 94px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    height: 79.5em ;
+}
